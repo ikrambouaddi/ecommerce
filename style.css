@@ -59,7 +59,7 @@ body{
 }
 .image{
     width: 140px;
-    height: 140px;
+    height: 110px;
 }
 #navbar{
     display: flex;
@@ -89,7 +89,8 @@ padding: 0 20px;
 
 } 
 
-#navbar li a.active::after{
+#navbar li a.active::after,
+#navbar li a:hover::after {
 
     content: "";
     width: 30%;
@@ -100,3 +101,19 @@ padding: 0 20px;
     left: 20px;
 
 }
+
+
+#hero{
+      background-image: url(images/images.jpeg);
+
+      background-repeat: no-repeat;
+      height: 90vh;
+      width: 100%;
+      background-size: cover;
+      background-position: top 25% right 0;
+      padding:0 80px ;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
