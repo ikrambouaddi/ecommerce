@@ -56,6 +56,11 @@ body{
     padding: 0 80px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+     top:0;
+     left: 0;
+
 }
 .image{
     width: 140px;
@@ -106,7 +111,7 @@ padding: 0 20px;
 #hero{
       background-image: url(images/hero4.png);
 
-      background-repeat: no-repeat;
+      
       height: 90vh;
       width: 100%;
       background-size: cover;
@@ -117,3 +122,33 @@ padding: 0 20px;
       align-items: flex-start;
       justify-content: center;
     }
+
+
+#hero h4{
+    padding-bottom: 15px;
+
+}
+
+#hero h1{
+    color: #088178;
+}
+
+#hero button{
+background-image: url("images/button.png");
+background-color: transparent;
+color: #088178;
+border: 0;
+padding: 14px 80px 14px 65px;
+background-repeat: no-repeat;
+cursor: pointer;
+font-weight: 700;
+font-size: 15px;
+}
+
+
+#feature{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
