@@ -201,3 +201,17 @@ font-size: 15px;
 #feature .box:nth-child(6) h6{
     background-color: #fff2e5 ;
 }
+
+
+
+#product {
+    text-align: center;
+}
+
+#product .pro{
+width: 23%;
+min-width: 250px;
+padding: 10px 12px;
+border: 1px solid #cce7d0;
+
+}
