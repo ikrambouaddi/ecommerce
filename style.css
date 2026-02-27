@@ -232,6 +232,13 @@ position: relative;
 }
 
 
+#product .pro-container{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+flex-wrap: wrap;
+}
+
 #product .pro .des{
     text-align: start;
     padding: 10px 0;
@@ -268,7 +275,7 @@ position: relative;
     line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    font-weight: 500;
+
     color: #088178;
     border: 1px solid #cce7d0;
     position: absolute;
