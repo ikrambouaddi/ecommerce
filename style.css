@@ -332,7 +332,11 @@ flex-wrap: wrap;
     
 }
 
-
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 #sm-banner .banner-box{
   display: flex;
@@ -340,5 +344,11 @@ flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("images/b");
+  background-image: url("images/b17.jpg");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+
+
 }
